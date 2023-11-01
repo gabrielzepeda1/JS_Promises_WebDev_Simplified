@@ -1,9 +1,11 @@
+
 const STATE = {
     FULFILLED: "fulfilled",
     REJECTED: "rejected",
     PENDING: "pending",
   }
   
+
   class MyPromise {
     #thenCbs = []
     #catchCbs = []
